@@ -11,15 +11,15 @@
         <h1>
           Minha página
         </h1>
-          <nav>
+          <nav class="menu">
             <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.
             
               ul>li*3>a[href=#]{Item -$} -->
 
               <ul>
                 <li><a href="./paginas/help.html">Help</a></li>
-                <li><a href="./paginas/contact.html">Contact</a></li>
                 <li><a href="./paginas/about.html">About</a></li>
+                <li><a href="./paginas/contact.html">Contact</a></li>
               </ul>
           </nav>
       </header>
@@ -27,20 +27,52 @@
       <hr />
 
       <section class="conteudo">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat voluptatibus neque, iure vel esse voluptatem consequatur optio eius ut veniam totam provident! Perferendis suscipit deserunt optio esse voluptatum vitae commodi labore soluta vero officia delectus, dolorem aut facere rem quia nostrum. Blanditiis optio facilis tempora? Enim, ut maxime. Culpa rem accusantium perferendis dicta magni voluptate, officiis deleniti. Facere perspiciatis, nostrum a similique dignissimos dolorem, aspernatur vitae placeat corrupti accusantium quidem? Ab quibusdam cupiditate iure at iste quod animi deserunt veritatis corporis magni accusantium molestiae voluptatem laborum, dolorum architecto possimus sequi rem doloremque. Tempora aperiam eveniet dolor? Voluptatibus, doloremque officia.
-        </p>
+       
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sit maxime amet aut pariatur architecto suscipit ullam corrupti a ut at in fugit accusamus voluptatem accusantium, tempore optio est. Possimus ratione perspiciatis atque nesciunt veritatis quae numquam. Error delectus aliquid adipisci ipsam dignissimos omnis reiciendis, illum in? Hic suscipit eligendi, ad possimus necessitatibus voluptatum totam corrupti porro deserunt quam eum reiciendis odit nam officia nemo. Voluptatum culpa omnis labore veniam sit animi ratione totam fuga suscipit ab quae ducimus mollitia aspernatur corporis, soluta iusto laborum optio accusantium quod molestiae officia reprehenderit corrupti. Minima, quisquam adipisci. Molestias repellat illum voluptas quibusdam!
+          </p>
+          <a href= "./paginas/help.html"> Mais... </a>
+        </div>
 
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quibusdam quos consectetur repellat aut exercitationem ea ducimus vero. Ut facilis alias aliquam inventore minus nam! Ipsum labore dicta qui quasi. Amet pariatur dicta nesciunt in repellendus cumque nulla cupiditate. Delectus consequatur reprehenderit quis accusantium deserunt porro quae optio id iusto?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente laborum modi, unde sunt impedit sit cumque quos repellat, ab perspiciatis suscipit saepe similique ut? Iure?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aliquam?
-        </p>
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa repudiandae rerum tempora quod sed molestiae soluta quidem cumque! Adipisci recusandae in repellendus, assumenda voluptatibus asperiores quae rerum. Velit ipsam debitis alias ut inventore illo, excepturi eius ducimus libero dicta iure provident dolorem facilis dolore eligendi ratione nihil, ipsa, ea sunt. Natus, nisi mollitia vero in commodi veniam provident quis? Tenetur modi perspiciatis non quis voluptatem recusandae eos temporibus earum dignissimos! Eius, facere perspiciatis cum molestiae voluptatem eos debitis necessitatibus et quis reprehenderit ullam earum optio dignissimos ut architecto reiciendis incidunt dolores asperiores maxime aliquam beatae quo atque! Veritatis, nam dignissimos?
+          </p>
+          <a href= "./paginas/about.html"> Mais... </a>
+        </div>
+        
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="idNm"> Name: </label>
+                <input  type="text" name="txtNm" id="idNm" placeholder="Digite seu nome">
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <div>
+          <label for="idEmail">Email:</label>
+          <input
+            type="email"
+            name="txtEmail"
+            id="idEmail"
+            placeholder="Digite seu email"
+          />
+        </div>
+
+        <div>
+          <button type="button">Send</button>
+        </div>
+
       </section>
+
       <footer class="rodape">
         <nav>
           <ul>
