@@ -1,0 +1,16 @@
+/*comentario css*/
+body{
+    background-color:rgb(255, 0, 85);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #a1a1a1;
+    width: 75%;
+    margin: 0 auto;
+}
