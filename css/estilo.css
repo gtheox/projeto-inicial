@@ -1,16 +1,24 @@
 /*comentario css*/
-body{
-    background-color:rgb(255, 0, 85);
+
+#container{
+    background-color: #ccc;
+
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+.cabecalho{
+    background-color: rgba(51, 51, 51, 1);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-image: url("../img/image_1_banner-1280x568.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
-.container{
-    background-color: #a1a1a1;
-    width: 75%;
-    margin: 0 auto;
+}
+.menu ul li{
+    display: inline;
+    margin-right: 10px;
+    background-color: #ffff;
+
 }
