@@ -1,6 +1,6 @@
 .cabecalho{
-    background-color: aqua;
-    color: black;
+    background-color: blue;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -11,7 +11,7 @@ nav ul{
     list-style: none;  
 }
 nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
